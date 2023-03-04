@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <div className="container min-vh-100">
+      <div className="container-fluid">
         <Hero />
         <Bio />
         <Music />
