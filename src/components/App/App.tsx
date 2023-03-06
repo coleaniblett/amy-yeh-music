@@ -8,14 +8,12 @@ import { Links } from '../Links/Links';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container-fluid">
       <Banner />
-      <div className="container-fluid">
-        <Hero />
-        <Bio />
-        <Music />
-        <Links />
-      </div>
+      <Hero />
+      <Bio />
+      <Music />
+      <Links />
     </div>
   );
 }
