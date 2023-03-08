@@ -3,11 +3,11 @@ import AmyGuitar from '../AmyGuitar.gif';
 
 export const Hero = () => {
   return (
-    <div className="row min-vh-100" 
+    <div className="row position-relative min-vh-100" 
       style={{
         backgroundImage: `url(${AmyGuitar})`, 
         backgroundSize: "cover", 
-        backgroundPosition: "center", 
+        backgroundPosition: "right", 
         backgroundRepeat: "no-repeat",
       }}
     >
