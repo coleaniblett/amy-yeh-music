@@ -1,9 +1,7 @@
 import React from 'react';
 import { Banner } from'../Banner/Banner';
 import { Hero } from '../Hero/Hero';
-import { Bio } from '../Bio/Bio';
-import { Music } from '../Music/Music';
-import { Links } from '../Links/Links';
+import { Highlights } from '../Highlights/Highlights';
 
 
 function App() {
@@ -11,9 +9,7 @@ function App() {
     <div className="App container-fluid">
       <Banner />
       <Hero />
-      <Bio />
-      <Music />
-      <Links />
+      <Highlights />
     </div>
   );
 }
