@@ -1,7 +1,7 @@
 import React from 'react';
 import AmyGuitar from '../AmyGuitar.gif';
 
-export const Hero = () => {
+export const Hero: React.FC = () => {
   return (
     <div className="row position-relative min-vh-100" 
       style={{

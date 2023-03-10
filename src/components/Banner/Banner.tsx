@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Banner = () => {
+export const Banner: React.FC = () => {
   return (
     <header 
       className="header p-2 row position-absolute start-0 top-0 end-0"

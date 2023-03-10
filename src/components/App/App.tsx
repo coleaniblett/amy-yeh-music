@@ -4,7 +4,7 @@ import { Hero } from '../Hero/Hero';
 import { Highlights } from '../Highlights/Highlights';
 
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App container-fluid">
       <Banner />
