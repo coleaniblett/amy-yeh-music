@@ -7,18 +7,15 @@ export const Highlights = () => {
       style={{height:500}}
     >
         <div className="video col-md">
-          <iframe 
-            width="560" 
-            height="315" 
-            src={AmyCommercial}
-            frameBorder="0" 
-            allow="autoplay; encrypted-media" 
-            allowFullScreen
-            style = {{
-              paddingTop: "20%"
+          <video height="350" controls
+            style={{
+              marginLeft: 80,
+              marginTop: 80
             }}
           >
-          </iframe>
+            <source src={AmyCommercial} type="video/mp4"></source>
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div className="text col-md-5 text-white">
           <h3 className="text-center m-auto"
