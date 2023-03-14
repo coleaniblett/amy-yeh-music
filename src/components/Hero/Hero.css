@@ -1,5 +1,7 @@
 .hero {
-  background-image: url('../../assets/AmyGuitar.gif');
+  background-image:
+  linear-gradient(to bottom, rgba(67, 67, 67, 0), rgba(0,0,0,1) 100%),
+  url('../../assets/AmyGuitar.gif');
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
