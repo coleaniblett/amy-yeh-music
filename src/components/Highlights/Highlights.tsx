@@ -1,6 +1,6 @@
 import './Highlights.css';
 import React from 'react';
-import AmyCommercial from '../AmyCommercial.mp4';
+import AmyCommercial from '../../assets/AmyCommercial.mp4';
 
 export const Highlights: React.FC = () => {
   return (
