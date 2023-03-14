@@ -1,0 +1,6 @@
+.hero {
+  background-image: url('../AmyGuitar.gif');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
