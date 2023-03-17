@@ -1,12 +1,16 @@
-video {
-  object-fit: initial;
-  width: 90%;
-  margin-left: 5%;
+
+.media {
+  object-fit: contain;
+  max-width: 90%;
   margin-top: 10%;
 }
 
+video {
+  margin-left: 5%;
+}
+
 .highlight-text {
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 3rem;
   padding-top: 30%;
   max-width: 50%;
@@ -14,4 +18,16 @@ video {
 
 div.text {
   aspect-ratio: 1;
+}
+
+img {
+  max-height: 100%;
+}
+
+.highlights-right {
+  height:min-content;
+}
+
+.media-container {
+  max-height: 42vw;
 }
