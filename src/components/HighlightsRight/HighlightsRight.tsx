@@ -4,7 +4,7 @@ import KatocheDemo from '../../assets/KatocheDemo.mp4';
 export const HighlightsRight: React.FC = () => {
   return (
     <div className="highlights-right row bg-black">
-      <div className="text-container col-md-5 text-white">
+      <div className="text-container text-right col-md-5 text-white">
         <h3 className="highlight-text text-right m-auto">
           Bringing <span>life</span> to virtual worlds
         </h3>

@@ -1,12 +1,16 @@
+.media-container {
+  max-height: 42vw;
+}
 
 .media {
   object-fit: contain;
   max-width: 90%;
   margin-top: 10%;
+  margin-left: 5%;
 }
 
-video {
-  margin-left: 5%;
+.text-container {
+  aspect-ratio: 1;
 }
 
 .highlight-text {
@@ -14,8 +18,6 @@ video {
   font-size: 3rem;
   max-width: 50%;
   margin: auto;
-  text-align: left;
-  /* Center text */
   position: relative;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -23,18 +25,10 @@ video {
   transform: translateY(-50%);
 }
 
-.text-container {
-  aspect-ratio: 1;
+.text-left {
+  text-align: left;
 }
 
-img {
-  max-height: 100%;
-}
-
-.highlights-right {
-  height:min-content;
-}
-
-.media-container {
-  max-height: 42vw;
+.text-right {
+  text-align: right;
 }

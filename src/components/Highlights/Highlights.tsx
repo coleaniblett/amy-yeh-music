@@ -11,7 +11,7 @@ export const Highlights: React.FC = () => {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="text-container col-md-5 text-white">
+        <div className="text-container text-left col-md-5 text-white">
           <h3 className="highlight-text text-left m-auto">
             Composing <span>original</span> commercial music
           </h3>
