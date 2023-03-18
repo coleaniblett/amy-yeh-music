@@ -3,6 +3,9 @@ import { Banner } from'../Banner/Banner';
 import { Hero } from '../Hero/Hero';
 import { Highlights } from '../Highlights/Highlights';
 import { HighlightsRight } from '../HighlightsRight/HighlightsRight';
+import { HighlightsLeft } from '../HighlightsLeft/HighlightsLeft';
+
+import AmyCommercial from '../../assets/AmyCommercial.mp4';
 
 const App: React.FC = () => {
   return (
@@ -10,7 +13,6 @@ const App: React.FC = () => {
       <Banner />
       <Hero />
       <Highlights />
-      <HighlightsRight />
     </div>
   );
 }
