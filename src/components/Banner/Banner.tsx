@@ -10,7 +10,7 @@ export const Banner: React.FC = () => {
           Amy Yeh Music
         </p>
         <div>
-          <button className="text-white bg-black">
+          <button className="menu-button text-white bg-black shadow-none">
             menu
           </button>
         </div>
