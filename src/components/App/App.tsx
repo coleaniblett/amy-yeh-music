@@ -1,18 +1,26 @@
 import React from 'react';
+import './App.css';
 import { Banner } from'../Banner/Banner';
 import { Hero } from '../Hero/Hero';
+import { Intro } from '../Intro/Intro';
 import { Highlights } from '../Highlights/Highlights';
-import { HighlightsRight } from '../HighlightsRight/HighlightsRight';
-import { HighlightsLeft } from '../HighlightsLeft/HighlightsLeft';
+import { Contact } from '../Contact/Contact';
 
-import AmyCommercial from '../../assets/AmyCommercial.mp4';
+/*
+  TO-DO
+  1. Add drop-down menu
+  2. Style intro
+  3. Add links to Contact
+*/
 
 const App: React.FC = () => {
   return (
-    <div className="App container-fluid">
+    <div className="App">
       <Banner />
       <Hero />
+      <Intro />
       <Highlights />
+      <Contact />
     </div>
   );
 }
