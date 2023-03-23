@@ -8,7 +8,7 @@ import KatocheDemo from '../../assets/KatocheDemo.mp4';
 
 export const Highlights: React.FC = () => {
   return (
-    <div className="highlights row bg-black">
+    <div className="highlights">
       <HighlightsLeft media={AmyCommercial} text="Composing original commercial music"/>
       <HighlightsRight media={KatocheDemo} text="Bringing life to virtual worlds"/>
       <HighlightsLeft media={AmyCommercial} text="Lorem Ipsum"/>
