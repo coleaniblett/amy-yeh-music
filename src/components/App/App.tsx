@@ -9,8 +9,9 @@ import { Contact } from '../Contact/Contact';
 /*
   TO-DO
   1. Add drop-down menu
-  2. Style intro
-  3. Add links to Contact
+  2. Add links to Contact
+  4. Customize video controls
+  5. Font consistency
 */
 
 const App: React.FC = () => {
@@ -18,9 +19,11 @@ const App: React.FC = () => {
     <div className="App">
       <Banner />
       <Hero />
-      <Intro />
-      <Highlights />
-      <Contact />
+      <div className="main">
+        <Intro />
+        <Highlights />
+        <Contact />
+      </div>
     </div>
   );
 }
