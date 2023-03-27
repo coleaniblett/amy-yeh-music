@@ -1,5 +1,5 @@
 .intro {
-  min-height: 300px;
+  min-height: 200px;
   padding: 10%;
   color: black;
 }
@@ -8,6 +8,7 @@
   margin: auto;
   background-color: rgba(250, 250, 250, .5);
   padding: 1.5rem 3rem;
+  box-shadow: 10px 10px 5px;
 }
 
 .intro h4 {
