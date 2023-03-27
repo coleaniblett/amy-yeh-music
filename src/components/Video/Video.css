@@ -1,0 +1,62 @@
+.video {
+  position: relative;
+  display: flex;
+}
+
+.controls {
+  position: absolute;
+  width: 90%;
+  height: 83%;
+  margin-top: 10%;
+  margin-left: 5%;
+  background-color: rgba(55, 55, 55, .7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.controls .play {
+  max-height: 20px;
+  margin: auto 0;
+}
+
+.controls button {
+  all: unset;
+  aspect-ratio: 1;
+  min-height: 46px;
+  display: relative;
+}
+
+.controls img {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  display: absolute;
+}
+
+.controls .slidecontainer {
+  opacity: .7
+}
+
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
