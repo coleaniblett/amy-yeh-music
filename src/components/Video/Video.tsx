@@ -10,7 +10,7 @@ interface Props {
 export const Video: React.FC<Props> = ({media}: Props) => {
   const [hover, setHover] = useState(false);
   const [play, setPlay] = useState(true);
-  const [volume, setVolume] = useState(25);
+  const [volume, setVolume] = useState(50);
 
   const videoRef = useRef(document.createElement("video"));
 
@@ -23,8 +23,12 @@ export const Video: React.FC<Props> = ({media}: Props) => {
     }
   }
 
-  const handleChange = (event: Event) => {
-    setVolume(event.target.value);
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const inputElement = event.target as HTMLInputElement;
+    const volumeValue = parseInt(inputElement.value);
+    setVolume(volumeValue);
+    videoRef.current.volume = (volume / 100);
+    console.log(videoRef.current.volume);
   }
 
   const showControls = () => {
@@ -34,7 +38,7 @@ export const Video: React.FC<Props> = ({media}: Props) => {
           <img src={play ? Play: Pause} />
         </button>
         <div className="slidecontainer">
-          <input type="range" min="1" max="100" defaultValue="50" className="slider" onChange={handleChange}/>
+          <input type="range" min="-1" max="100" defaultValue={volume} className="slider" onChange={handleChange}/>
         </div>
       </div>
     )
