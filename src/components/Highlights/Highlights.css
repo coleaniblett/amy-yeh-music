@@ -3,7 +3,7 @@
 }
 
 .media-container {
-  max-height: 42vw;
+  
 }
 
 .media {
@@ -15,6 +15,7 @@
 
 .text-container {
   aspect-ratio: 1;
+  margin: auto;
 }
 
 .highlight-text {
