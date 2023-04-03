@@ -3,7 +3,7 @@ import "./Intro.css";
 
 export const Intro: React.FC = () => {
   return (
-    <div className="intro">
+    <div className="intro" id="about">
       <div className="intro-text">
         <h4>Welcome</h4>
         <p>

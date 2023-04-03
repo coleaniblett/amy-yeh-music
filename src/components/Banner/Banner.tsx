@@ -1,5 +1,6 @@
 import './Banner.css';
 import React from 'react';
+import { DropdownMenu } from '../DropdownMenu/DropdownMenu';
 
 export const Banner: React.FC = () => {
   return (
@@ -10,9 +11,7 @@ export const Banner: React.FC = () => {
           Amy Yeh Music
         </p>
         <div>
-          <button className="menu-button text-white bg-black shadow-none">
-            menu
-          </button>
+          <DropdownMenu />
         </div>
       </div>
     </header>

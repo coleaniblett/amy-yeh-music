@@ -1,0 +1,17 @@
+.dropdown-menu {
+  display: block;
+  position: absolute;
+}
+
+.dropdown-menu li {
+  padding: 0.25rem;
+}
+
+.dropdown-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+  font-style:italic;
+}
