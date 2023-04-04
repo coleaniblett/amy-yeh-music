@@ -1,8 +1,7 @@
 .highlights {
   background-color: transparent;
-  margin: 0 10%;
+  margin: 0 4%;
 }
-
 
 .media {
   object-fit: contain;
@@ -28,11 +27,35 @@
 }
 
 .text-left {
+  text-align: right;
+  padding-right: 3rem;
+}
+
+.text-right {
   text-align: left;
   padding-left: 3rem;
 }
 
-.text-right {
-  text-align: right;
-  padding-right: 3rem;
+@media screen and (max-width: 768px) {
+  .highlight-text {
+    padding: 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .text-container {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 956px) {
+  .highlight-text {
+    padding: 0;
+    font-size: 2.25rem;
+  }
+}
+
+@media screen and (max-width: 1154px) {
+  .highlight-text {
+    font-size: 2.50rem;
+  }
 }

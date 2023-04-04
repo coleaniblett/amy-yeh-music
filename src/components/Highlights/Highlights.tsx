@@ -11,7 +11,7 @@ export const Highlights: React.FC = () => {
     <div className="highlights" id="music">
       <HighlightsLeft media={AmyCommercial} text="Composing original commercial music"/>
       <HighlightsRight media={KatocheDemo} text="Bringing life to virtual worlds"/>
-      <HighlightsLeft media={AmyCommercial} text="Lorem Ipsum"/>
+      <HighlightsLeft media={AmyCommercial} text="Inspiring fellow artists"/>
     </div>
   );
 }
