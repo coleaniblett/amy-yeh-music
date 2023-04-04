@@ -1,6 +1,13 @@
+.dropdown {
+  overflow:visible;
+}
+
 .dropdown-menu {
-  display: block;
+  display: block !important;
   position: absolute;
+  top: 100%; /* position the dropdown menu below the button */
+  left: 0; /* position the dropdown menu to the left of the button */
+  z-index: 999; /* ensure the dropdown menu is on top of other elements */
 }
 
 .dropdown-menu li {
