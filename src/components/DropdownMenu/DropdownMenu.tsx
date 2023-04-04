@@ -10,7 +10,7 @@ export const DropdownMenu: React.FC = () => {
 
   return (
     <div className="dropdown">
-      <button className="menu-button text-white bg-black shadow-none" onClick={toggleMenu}>
+      <button className="menu-button text-white bg-transparent shadow-none" onClick={toggleMenu}>
         Menu
       </button>
       {isOpen && (
