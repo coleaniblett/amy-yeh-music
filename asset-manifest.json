@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.002944b2.css",
+    "main.js": "/static/js/main.c7cf1243.js",
+    "static/media/AmyCommercial.mp4": "/static/media/AmyCommercial.86cb9c7689d1f068aadb.mp4",
+    "static/media/KatocheDemo.mp4": "/static/media/KatocheDemo.0a97adf9e3f2fd377f8f.mp4",
+    "static/media/AmyGuitar.gif": "/static/media/AmyGuitar.3245c0a753e1897b6d36.gif",
+    "static/media/NotesBackground.png": "/static/media/NotesBackground.ba066df20fd129e0be56.png",
+    "static/media/Pause.png": "/static/media/Pause.28d056b978ece4001ef7.png",
+    "static/media/Play.png": "/static/media/Play.b6a57d2b8ca5d873cda0.png",
+    "index.html": "/index.html",
+    "main.002944b2.css.map": "/static/css/main.002944b2.css.map",
+    "main.c7cf1243.js.map": "/static/js/main.c7cf1243.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.002944b2.css",
+    "static/js/main.c7cf1243.js"
+  ]
+}
