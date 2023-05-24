@@ -1,8 +1,8 @@
-import './Banner.css';
+import './Navbar.css';
 import React from 'react';
 import { DropdownMenu } from '../DropdownMenu/DropdownMenu';
 
-export const Banner: React.FC = () => {
+export const Navbar: React.FC = () => {
   return (
     <header 
       className="header p-2 position-fixed">
