@@ -6,3 +6,7 @@ header {
 header p {
   font-family: 'Poppins', sans-serif;
 }
+
+.dropdown-wrapper {
+  margin: 0 24px;
+}

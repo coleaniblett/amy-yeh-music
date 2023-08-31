@@ -10,7 +10,7 @@ export const Navbar: React.FC = () => {
         <p className="text-white fs-5 fw-bold m-3">
           Amy Yeh Music
         </p>
-        <div>
+        <div className="dropdown-wrapper">
           <DropdownMenu />
         </div>
       </div>

@@ -14,7 +14,7 @@ export const DropdownMenu: React.FC = () => {
         Menu
       </button>
       {isOpen && (
-        <ul className="dropdown-menu bg-black">
+        <ul className="dropdown-menu bg-transparent">
           <li><a href="#about">About</a></li>
           <li><a href="#music">Music</a></li>
           <li><a href="#contact">Contact</a></li>

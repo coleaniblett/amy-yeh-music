@@ -10,10 +10,13 @@
 }
 
 .dropdown-menu {
+  /* override Bootstrap default */
   display: block !important;
   position: absolute;
   top: 100%;
   left: 0;
+  /* override Bootstrap default */
+  border-width: 0 !important;
 }
 
 .dropdown-menu li {
